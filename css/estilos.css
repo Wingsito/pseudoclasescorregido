@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/602.jpg);
+    margin: 0;
+    padding: 0;
+    color: rgb(251, 251, 251);
+
+}
+.buscar{
+
+  background-color: rgb(18, 75, 88);
+  height: 10vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.title{
+  height: 50vh;
+  background-image: url(../images/360.jpg);
+  color: rgb(243, 240, 240);;
+  background-size: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-position: center;
+  background-size:cover
+}
+  .pseudo{
+  padding: 12vh;
+}
+  .ques{
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh; 
+}
+.defi{
+  text-align: justify;
+}
+
+  .inici{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: rgb(13, 116, 134);
+}
+  .caja{
+  text-align: justify;
+  padding: 5vh;
+
+}
+.tcaja{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  background-color: #249ada;
+
+}
+.click{
+
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+  
+  select {
+    margin: 8px;
+  }
+
+  
+  /* Etiquetas para entradas marcadas */
+  .yes:checked + label {
+    color: rgb(0, 157, 255);
+  }
+
+  
+  /* Elemento Radio, cuando está marcado */
+  .yes[type="radio"]:checked {
+    box-shadow: 0 0 0 3px #18819e ;
+  }
+
+  
+  /* Elemento Checkbox, cuando está marcado */
+  input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px #185b9e;
+  }
+
+  
+  /* Elementos Option, cuando se seleccionan */
+  option:checked {
+    box-shadow: 0 0 0 3px rgb(246, 246, 246);
+    color: rgb(0, 136, 255);
+  }
+
+    .circulo:default {
+      box-shadow: 0 0 2px 1px rgb(44, 133, 236);
+    }
+  #jejesi:default {
+    box-shadow: 0 0 2px 1px rgb(10, 94, 238);
+  }
+
+    .circulo:default + label {
+      color: rgb(113, 191, 239);
+      display: flex;
+      align-items: center;
+    }
+      page:first{
+      margin-left:50% ;
+      margin-top: 50%;
+    }
+    .primer{
+      page-break-after: always;
+    }
+        button:first-child{
+        color: #17a5c5;
+        background-color: rgb(214, 214, 214);
+    }
+.tipe p:first-of-type{
+    color: #50dbfa;
+    font-size: 1.5rem;
+}
+#fullscreen:fullscreen{
+    font-size: 1.5rem;
+
+}
+#fullscreen:fullscreen > p{
+    color: #05b3d2;
+}
+.seleccionado:focus{
+    background-color: #78c6c9;
+    color: #f2f2f2;
+}
+.noseleccionado:focus{
+    background-color: rgb(219, 151, 151);
+    color: rgb(239, 247, 255);
+}
+.clickhere{
+    background-color: rgb(114, 200, 229);
+    transition: background-color .5s;
+    font-size: 3.333rem;
+
+}
+.clickhere:hover{
+    background-color: rgb(0, 179, 255);
+}
+input:indeterminate label{
+    background-color: rgb(0, 128, 255);
+}
+li{
+    list-style: none;
+    margin-bottom: 1em;
+}
+#valo1{
+    border: 1px solid black;
+}
+#valo1:in-range{
+    background-color: rgba(0, 136, 255, 0.25);
+
+}
+#valo1:out-of-range{
+    background-color: rgba(255, 0, 0, 0.25);
+    border: 2px solid red;
+}
+#url-input:invalid{
+    background-color: #ffdddd;
+}
+#url-input:valid{
+    background-color: #ddfbff;
+
+}
+.inva{
+    border: 5px  solid rgb(214, 214, 214);
+    display: flex;
+    align-items: center;
+}
+.ultimo p:last-child{
+    background-color: #0c5572;
+    color: white;
+}
+.ltipe p:last-of-type{
+    color: #18749e;
+}
+.ltipe{
+    border: 3px solid rgb(12, 71, 105);
+}
+.enlavis a:link{
+    background-color: rgb(14, 126, 163);
+    color: rgb(214, 214, 214);
+}
+.fancy{
+    text-shadow: 2px 2px 3px #063459;
+}
+.notk p:not(.fancy){
+    color: rgb(0, 128, 128);
+}
+.notk div:not(p){
+    text-decoration: underline;
+}
+.notk{
+    border: 3px solid rgb(214, 214, 214);
+}
+.first span:nth-child(2n+1){
+  background-color: #0b536d;
+}
+.first span, .first div em{
+  padding: 5px;
+  border: 1px solid rgb(16, 71, 134);
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.tabla{
+  border: 3px solid rgb(12, 51, 85);
+}
+tr:nth-last-child(-n+3){
+  background-color: rgb(17, 43, 92);
+}
+tr:nth-last-child(4){
+  color: #13a0d3;
+}
+.ltp span:nth-last-of-type(2){
+  background-color: #186f9e;
+  color: white;
+}
+.t2caja{
+  font-size: 2.1rem;
+  background-color: rgb(21, 90, 175);
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+}
+.mani :only-child{
+  background-color: #183c9e;
+  color: white;
+}
+.mano :only-of-type{
+  background-color: #18509e;
+  color: white;
+}
+.opti :optional{
+  border: 2px solid rgba(0, 149, 255, 0.25) ;
+}
+.este{
+  list-style: none;
+  margin-bottom: 1em;
+}
+.valor1{
+border: 1px solid black;
+}
+input:out-of-range{
+  background-color: rgba(255, 0, 0, 0.25);
+}
+input:in-range{
+  background-color: rgba(0, 119, 255, 0.25);
+}
+input:in-range+label::after{
+  content: ' melo.';
+}
+input:out-of-range+label::after{
+  content: ' paila.';
+}
+input.orea:read-only{
+  background-color: #18669e;
+  color: white;
+}
+input.edi:read-write{
+  background-color: #188a9e;
+  color:white;
+}
+input.req:required{
+  background-color: #18509e;
+  color: white;
+}
+p:target{
+  background-color: #187f9e;
+}
+p:target::before{
+  content: "►";
+  color: rebeccapurple;
+  margin-right: .25em;
+}
+input.olas:invalid{
+  background-color: rgba(255, 0, 0, 0.25);
+}
+input.olas:valid{
+  background-color: #186f9e;
+}
+.visi a{
+  background-color: #187f9e7d;
+}
+.visi a:visited{
+  background-color: rgba(0, 200, 255, 0.446);
+}
+.raku::after{
+  color: #18509e;
+}
+.kata::after{
+}
+.spre::before{
+  content: "«";
+  color: red;
+}
+.spre::after{
+  content: "»";
+  color: rgb(0, 183, 255);
+}
+.pletra::first-letter{
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fline::first-line{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #186d9e;
+}
+.fline::first-letter{
+  font-size: 3rem;
+}
+.selec::selection{
+  background-color: #18549e   ;
+}
+input::placeholder{
+  color: white;
+  background-color: #18839e;
+}
+ul li::marker{
+  color: #18819e;
+  font-size: 1.5rem;
+  background-color: red;
+}
+.spell::spelling-error{
+  background-color: red;
+}
+.container-fluid{
+ background-color: #13a0d3;
+}
+.head{
+  background-color: #50dbfa;
+}
+.dflex{
+  background-color: #13a0d3;
+}
+.form-control me-2{
+  background-color: #05b3d2;
+}
+.accordion-item{
+  background-color: #41b6e0;
+}
